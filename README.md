@@ -2,6 +2,7 @@
 <H3>REGISTER NO.: 212223240179</H3>
 <H3>EX. NO.8</H3>
 <H3>DATE: </H3>
+
 <H1 ALIGN =CENTER>Implementation of Speech Recognition</H1>
 
 <H3>Aim:</H3> 
@@ -22,6 +23,7 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 &nbsp&nbsp •	If successful, print the recognized text.<Br>
 &nbsp&nbsp •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 &nbsp&nbsp•	A generic exception block captures any other unexpected errors.<Br>
+
 
 <H3>Program:</H3>
 
@@ -44,6 +46,7 @@ except sr.RequestError as e:
 except Exception as e:
     print(f'Error: {e}')  
 ```
+
 
 <H3> Output:</H3>
 
