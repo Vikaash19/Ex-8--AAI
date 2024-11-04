@@ -43,7 +43,6 @@ except sr.RequestError as e:
 except Exception as e:
     print(f'Error: {e}')
 ```
-
 <H3> Output:</H3>
 ![alt text](image.png)
 
