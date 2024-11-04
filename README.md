@@ -25,8 +25,6 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 
 <H3>Program:</H3>
 ```
-pip install SpeechRecognition
-pip install pyaudio
 import speech_recognition as sr
 r = sr.Recognizer()
 duration = 7
@@ -42,6 +40,7 @@ except sr.RequestError as e:
     print(f'Error with the request to Google Speech Recognition service: {e}')
 except Exception as e:
     print(f'Error: {e}')
+    
 ```
 
 <H3> Output:</H3>
