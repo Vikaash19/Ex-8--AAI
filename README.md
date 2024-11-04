@@ -30,7 +30,7 @@ pip install SpeechRecognition
 pip install pyaudio
 import speech_recognition as sr
 r = sr.Recognizer()
-duration = 7
+duration = 15
 print("Say something:")
 with sr.Microphone() as source :
     audio_data = r.listen(source,timeout = duration)
@@ -46,7 +46,7 @@ except Exception as e:
 ```
 
 <H3> Output:</H3>
-![alt text](image.png)
+![img1](https://github.com/anto-richard/Ex-8--AAI/assets/93427534/f7702f43-d78c-4539-aa0d-ad68e4392efc)
 
 <H3> Result:</H3>
 Thus, we have implemented a program that will transcribe the audio file in the file variable and print the transcribed text on the console, one line at a time.
