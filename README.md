@@ -31,7 +31,7 @@ pip install pyaudio
 import speech_recognition as sr
 r = sr.Recognizer()
 duration = 15
-print("Say something:")
+print("start speaking:")
 with sr.Microphone() as source :
     audio_data = r.listen(source,timeout = duration)
 try:
