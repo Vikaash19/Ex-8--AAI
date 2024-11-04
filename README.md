@@ -46,7 +46,7 @@ except Exception as e:
 ```
 
 <H3> Output:</H3>
-![img1](https://github.com/anto-richard/Ex-8--AAI/assets/93427534/f7702f43-d78c-4539-aa0d-ad68e4392efc)
+![exp 8 output](https://github.com/user-attachments/assets/10bfccf2-4c1e-45bc-81eb-69ba1e1d6d46)
 
 <H3> Result:</H3>
 Thus, we have implemented a program that will transcribe the audio file in the file variable and print the transcribed text on the console, one line at a time.
